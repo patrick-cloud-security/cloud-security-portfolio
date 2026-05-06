@@ -45,6 +45,12 @@ Skills demonstrated:
 - Cloud attack-path analysis
 - Guardrail design
 
+### Cloud Threat / Control Matrix
+
+A research-style matrix mapping AWS attack paths to dangerous permissions, impacts, preventive controls, and detection ideas.
+
+[View matrix](./cloud-threat-control-matrix.md)
+
 ## Background
 
 I am a published scientist and qualified teacher transitioning into cloud security threat research. My background combines scientific research, technical writing, international education experience, and hands-on AWS security labs.
