@@ -30,17 +30,20 @@ Key concepts:
 Repository:
 [aws-iam-attack-path-lab](https://github.com/patrick-cloud-security/aws-iam-attack-path-lab)
 
-## In Progress
+### EC2 Workload Identity / IMDSv2 Credential Replay Lab
 
-### EC2 Workload Identity / IMDSv2 Lab
+Hands-on AWS lab demonstrating how an EC2 instance receives temporary STS credentials through IMDSv2, how those credentials can be replayed outside the instance, and how least-privilege IAM design limits blast radius.
 
-Planned lab exploring:
-- IAM roles and instance profiles
-- Temporary STS credentials
-- IMDSv2 credential retrieval concepts
-- Local replay of compromised workload credentials
-- `iam:PassRole` + `ec2:RunInstances` privilege escalation
-- Defensive guardrails using explicit denies, role scoping, permission boundaries, and logging
+Repository: [ec2-workload-identity-imdsv2-lab](https://github.com/patrick-cloud-security/ec2-workload-identity-imdsv2-lab)
+
+Skills demonstrated:
+- EC2 IAM roles and instance profiles
+- IMDSv2 credential retrieval
+- STS temporary credentials
+- AWS CLI local replay testing
+- Least-privilege IAM policy design
+- Cloud attack-path analysis
+- Guardrail design
 
 ## Background
 
