@@ -51,6 +51,12 @@ A research-style matrix mapping AWS attack paths to dangerous permissions, impac
 
 [View matrix](./cloud-threat-control-matrix.md)
 
+### STRIDE Threat Model: EC2 Workload Identity / IMDSv2
+
+Formal STRIDE threat model for the EC2 workload identity lab, covering spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege risks.
+
+[View threat model](./stride-threat-model-ec2-imdsv2.md)
+
 ## Background
 
 I am a published scientist and qualified teacher transitioning into cloud security threat research. My background combines scientific research, technical writing, international education experience, and hands-on AWS security labs.
