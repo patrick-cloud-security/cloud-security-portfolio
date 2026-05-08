@@ -61,6 +61,12 @@ Formal STRIDE threat model for the EC2 workload identity lab, covering spoofing,
 
 I am a published scientist and qualified teacher transitioning into cloud security threat research. My background combines scientific research, technical writing, international education experience, and hands-on AWS security labs.
 
+### EC2 Workload Identity / IMDSv2 Credential Replay Lab
+
+Hands-on AWS lab demonstrating how an EC2 instance receives temporary STS credentials through IMDSv2, how those credentials can be replayed outside the instance, and how least-privilege IAM design limits blast radius. Includes CloudTrail detection notes for investigating suspicious assumed-role activity.
+
+Repository: [ec2-workload-identity-imdsv2-lab](https://github.com/patrick-cloud-security/ec2-workload-identity-imdsv2-lab)
+
 ## Security Note
 
 All labs are performed in authorized personal lab environments only. No production systems, customer data, or unauthorized targets are used.
