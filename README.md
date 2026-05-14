@@ -57,6 +57,24 @@ Formal STRIDE threat model for the EC2 workload identity lab, covering spoofing,
 
 [View threat model](./stride-threat-model-ec2-imdsv2.md)
 
+### AWS S3 Permission Blast Radius Lab
+
+Hands-on Terraform and AWS CLI lab exploring how S3 permissions map to attacker capability.
+
+Tested `s3:ListBucket`, `s3:GetObject`, `s3:PutObject`, `s3:DeleteObject`, prefix-scoped access, `s3:prefix` conditions, S3 versioning, delete markers, and `s3:DeleteObjectVersion` recovery-path risk.
+
+Key focus areas:
+
+- S3 bucket-level vs object-level permissions
+- object keys and prefixes
+- data discovery and exfiltration risk
+- overwrite/tampering risk
+- deletion and ransomware-style availability risk
+- versioning as a recovery control
+- least-privilege S3 design
+
+[View lab](https://github.com/patrick-cloud-security/aws-s3-permission-blast-radius-lab)
+
 ## Background
 
 I am a published scientist and qualified teacher transitioning into cloud security threat research. My background combines scientific research, technical writing, international education experience, and hands-on AWS security labs.
